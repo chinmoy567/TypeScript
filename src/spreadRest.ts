@@ -36,22 +36,22 @@
 // console.log("collegeFriends:", collegeFriends);
 
 
-// tsx src/spredRest.ts
-// const  user ={
-//     name: "Chinmoy",
-//     age: 25,
-//     city: "cumilla",
-//     profession: "Software Engineer",
-// }
+// tsx src/spreadRest.ts
+const  user ={
+    name: "Chinmoy",
+    age: 25,
+    city: "cumilla",
+    profession: "Software Engineer",
+}
 
-// const user_qualifications ={
-//     degree: "BSc in Computer Science",
-//     university: "Baiust",
-//     graduationYear: 2026,
-// }
-// const user_details = {
-//     ...user,
-//     ...user_qualifications,
-// }   
-// console.log(user_details);
+const user_qualifications ={
+    degree: "BSc in Computer Science",
+    university: "Baiust",
+    graduationYear: 2026,
+}
+const user_details = {
+    ...user,
+    ...user_qualifications,
+}   
+console.log(user_details);
 
